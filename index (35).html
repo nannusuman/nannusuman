@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>Google Homepage</title>
+
+    <style>
+
+html,body{
+
+margin: 0;
+
+height: 100;
+
+}
+
+#nav{
+
+display: flex;
+
+justify-content: flex-end;
+
+margin-top: 15px;
+
+}
+
+a{
+
+text-decoration: none;
+
+}
+
+a:hover{
+
+text-decoration: underline;
+
+}
+
+#nav a {
+
+margin-right: 20px;
+
+}
+
+#nav a.topimage {
+
+width: 22px;
+
+height: 22px;
+
+background-color: blue;
+
+border-radius: 50%;
+
+}
+
+#middle {
+
+flex-grow: 1;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: center;
+
+}
+
+#logo {
+
+text-align: center;
+
+}
+
+#searchingbar {
+
+margin-top: 20px;
+
+position: relative;
+
+text-align: center;
+
+}
+
+#search,#voice {
+
+position: absolute;
+
+margin-top: 10px;
+
+top: 0;
+
+height: 100%
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+}
+
+#search {
+
+left: 10px;
+
+}
+
+#voice {
+
+right: 10px;
+
+}
+
+#searchbar {
+
+padding-top: 10px;
+
+padding-bottom: 10px;
+
+outline: 0;
+
+width: 500px;
+
+padding-left: 30px;
+
+padding-right: 30px;
+
+border-radius: 15px;
+
+border: 1px solid #c4c4c4;
+
+}
+
+#searchbar:hover {
+
+box-shadow: 0 0 10px 2px rgb(233,233,233);
+
+}
+
+#buttons {
+
+margin: 20px;
+
+display: flex;
+
+justify-content: center;
+
+}
+
+.button {
+
+margin-left: 10px;
+
+margin-right: 10px;
+
+padding: 5px 10px;
+
+cursor: pointer;
+
+border-radius: 3px;
+
+background: rgb(231,231,231);
+
+border: 2px solid #eee transparent;
+
+}
+
+#links {
+
+  margin-bottom: 70px;
+
+margin-top: 5px;
+
+text-align: center;
+
+}
+
+#body {
+
+display: flex;
+
+flex-direction: column;
+
+}
+
+.button:hover {
+
+box-shadow: 0 0 2px black;
+
+border: 2px solid #eee;
+
+}
+
+#footercontent {
+background: #eee;
+border-top: 1px solid black;
+}
+#footercontent a {
+  margin-left: 5px;
+}
+.nannu {
+    background: #eee;
+    padding:5px;
+    height: 30px;
+    text-align: center;
+}
+.nannu a {
+    margin: 10px;
+    padding: 3px;
+}
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div id="nav">
+
+      <a class="toplink">Gmail</a>
+
+      <a class="toplink">Image</a>
+
+      <a class="topimage"></a>
+
+    </div>
+
+    <div id="middle">
+
+      <div id="logo">
+
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+
+        </div>
+
+        <div id="searchingbar">
+
+          <div id="search">X</div>
+
+          <input id="searchbar"type="text">
+
+          <div id="voice">Y</div>
+
+        </div>
+
+        <div id="buttons">
+
+          <div class="button">
+
+            Google Search
+
+          </div>
+
+          <div class="button">
+
+            I'm feeling lucky
+
+          </div>
+
+          </div>
+
+          <div id="links">
+
+            Google is offered in <a href="">HINDI</a> <a href="">English</a>
+
+            </div>
+
+            </div>
+
+            <div id="footer">
+
+              <div id="footercontent">
+
+                <a>India</a>
+                </div>
+                <div class="nannu"
+                <a>Advertising</a> <a>Bussiness</a> <a>About</a> <a>Setting</a> <a>Privacy</a> <a>Terms</a>
+
+              </div>
+
+              </body>
+
+  </html>
